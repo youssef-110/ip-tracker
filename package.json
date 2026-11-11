@@ -1,0 +1,24 @@
+{
+  "name": "iptrack-cli",
+  "version": "1.0.0",
+  "description": "Precision IP Geolocation Tracker — Terminal CLI and Web Application",
+  "main": "api/lookup.js",
+  "bin": {
+    "iptrack": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ip",
+    "tracker",
+    "geolocation",
+    "cli",
+    "terminal",
+    "vercel"
+  ],
+  "author": "Youssef",
+  "license": "MIT"
+}
